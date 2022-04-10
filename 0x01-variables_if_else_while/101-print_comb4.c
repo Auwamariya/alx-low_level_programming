@@ -14,9 +14,9 @@ int ones;
 
 for (hundreds = 0; hundreds <= 9; hundreds++)
 {
-for (tens = 1 ; tens <= 9; tens++)
+for (tens = hundreds + 1 ; tens <= 9; tens++)
 {
-for (ones = 2; ones <= 9; ones++)
+for (ones = hundreds + 2; ones <= 9; ones++)
 {
 putchar(hundreds + '0');
 putchar(tens + '0');
