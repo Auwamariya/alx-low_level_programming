@@ -4,7 +4,7 @@
 /**
  * main - Prints a serie of numbers with commas
  *
- * Return: Always (Success);
+ * Return: Always 0 (Success)
  */
 
 int main(void)
