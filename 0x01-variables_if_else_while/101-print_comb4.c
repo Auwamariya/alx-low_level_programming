@@ -22,7 +22,7 @@ putchar(hundreds + '0');
 putchar(tens + '0');
 putchar(ones + '0');
 
-if (hundreds < 8)
+if (hundreds < 7)
 {
 putchar(',');
 putchar(' ');
