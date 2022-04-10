@@ -10,13 +10,13 @@
 int main(void)
 
 {
-int num;
+int number;
 
-for (num = '0'; num <= '9'; num++)
+for (number = '0'; number <= '9'; number++)
 {
-putchar(num + '0');
+putchar(number + '0');
 
-if (num < '9')
+if (number < '9')
 {
 putchar(',');
 putchar(' ');
