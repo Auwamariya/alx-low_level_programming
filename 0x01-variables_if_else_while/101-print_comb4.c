@@ -12,9 +12,9 @@ int hundreds;
 int tens;
 int ones;
 
-for (hundreds = 0; hundreds <= 9; hundreds++)
+for (hundreds = 0; hundreds <= 7; hundreds++)
 {
-for (tens = hundreds + 1 ; tens <= 9; tens++)
+for (tens = hundreds + 1 ; tens <= 8; tens++)
 {
 for (ones = hundreds + 2; ones <= 9; ones++)
 {
