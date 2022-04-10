@@ -10,12 +10,12 @@
 int main(void)
 
 {
-int c;
+int num;
 
-for (c = '0'; c <= '9'; c++)
-putchar(c + '0');
+for (num = '0'; num <= '9'; num++)
+putchar(num + '0');
 
-if (c < '9')
+if (num < '9')
 putchar(',');
 putchar(' ');
 putchar('\n');
