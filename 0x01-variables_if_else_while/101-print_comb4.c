@@ -18,7 +18,7 @@ for (tens = 1 ; tens <= 9; tens++)
 {
 for (ones = 2; ones <= 9; ones++)
 {
-putchar(hudreds + '0');
+putchar(hundreds + '0');
 putchar(tens + '0');
 putchar(ones + '0');
 
