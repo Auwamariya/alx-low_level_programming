@@ -6,27 +6,32 @@
  * Numbers should be printed in ascending order, with three digits
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
+int i;
 int hundreds;
 int tens;
-int ones;
+int onens;
 
-for (hundreds = 0; hundreds <= 7; hundreds++)
+for (i = 0; i < 1000; i++)
 {
-for (tens = hundreds + 1 ; tens <= 8; tens++)
+	
+hundreds = i / 100;
+tens = (i / 10) % 10;
+ones = i % 10;
+
+if (hundreds < tens && tens < ones)
 {
-for (ones = hundreds + 2; ones <= 9; ones++)
-{
+
 putchar(hundreds + '0');
 putchar(tens + '0');
 putchar(ones + '0');
 
-if (hundreds < 7)
+if (i < 700)
 {
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
