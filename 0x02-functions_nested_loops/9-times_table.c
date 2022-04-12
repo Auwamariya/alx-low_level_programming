@@ -39,15 +39,8 @@ _putchar(',');
 _putchar(' ');
 }
 b++;
-
 }
-
 _putchar('\n');
-
 a++;
-
 }
-
-
-
 }
