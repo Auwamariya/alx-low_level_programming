@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-=======
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <stdio.h>
->>>>>>> 3c0896cad7544eee4f96920ec5276544742fc9ef
 int _isupper(int c);
 int _isdigit(int c);
 int mul(int a, int b);
