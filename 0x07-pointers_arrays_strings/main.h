@@ -21,4 +21,5 @@ void print_diagsums(int *a, int size);
 
 void set_string(char **s, char *to);
 
+void *memset(void *s, int c, size_t n);
 #endif
