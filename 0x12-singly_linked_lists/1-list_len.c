@@ -6,15 +6,16 @@
  * Return: number of nodes in the list
  */
 
-size_t list_len(const list_t *h);
+size_t list_len(const list_t *h)
 {
-	int a = 0;
+	size_t len = 0;
+	int i;
+	const list_t *c = h;
 
-	while
-		(c != NULL);
+	for (i = 0; c; i++)
 	{
-		c = c->next;
-		a++;
+	c = c->next;
+	len++;
 	}
-	return (a);
+return (len);
 }
