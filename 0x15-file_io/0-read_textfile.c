@@ -8,7 +8,7 @@
  * Return: the actual number of letters it could read and prints
  */
 
-include <fcntl.h>
+#include <fcntl.h>
 #include <unistd.h>
 #include <stdlib.h>
 
